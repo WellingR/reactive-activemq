@@ -13,7 +13,7 @@ Add the following to your `build.sbt`:
 ```scala
 resolvers += Resolver.jcenterRepo
 
-libraryDependencies += "com.github.dnvriend" %% "reactive-activemq" % "0.0.27"
+libraryDependencies += "com.github.dnvriend" %% "reactive-activemq" % "0.0.28"
 ```
 
 ## Contribution policy ##
@@ -158,7 +158,7 @@ TBD
 TBD
 
 # Whats new?
-- v0.0.28 (not yet released)
+- v0.0.28 (2017-08-22)
   - akka 2.4.16 -> 2.5.4 (please use v0.0.27 for akka 2.4.x)
   - enabled cross building for scala 2.12
   - allow configuration of the activemq url directly instead of only transport, host and port (to allow specifying other options in the url such as failover)
